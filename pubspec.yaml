@@ -39,7 +39,7 @@ dev_dependencies:
 flutter:
   assets:
     - images/c1.jpg
-    - images/c2.jpg
+    - images/c2.JPG
     - images/m1.jpeg
     - images/m2.jpg
     - images/w1.jpeg
@@ -52,6 +52,17 @@ flutter:
     - images/category/jeans.png
     - images/category/shoe.png
     - images/category/tshirt.png
+    - images/products/blazer1.jpeg
+    - images/products/blazer2.jpeg
+    - images/products/dress1.jpeg
+    - images/products/dress2.jpeg
+    - images/products/hills1.jpeg
+    - images/products/hills2.jpeg
+    - images/products/pants1.jpg
+    - images/products/pants2.jpeg
+    - images/products/shoe1.jpg
+    - images/products/skt1.jpeg
+    - images/products/skt2.jpeg
 
 
   # The following line ensures that the Material Icons font is

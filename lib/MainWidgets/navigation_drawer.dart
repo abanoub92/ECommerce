@@ -17,63 +17,50 @@ class NavigationDrawer extends StatelessWidget {
             accountName: Text("Abanoub ghabreal"),
             accountEmail: Text("abanoub.eskander15@gmail.com"),
           ),
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+
+          ListTile(
               title: Text("Home page"),
               leading: Icon(Icons.home, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("My Account"),
               leading: Icon(Icons.person, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("My Orders"),
               leading: Icon(Icons.shopping_basket, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("Categories"),
               leading: Icon(Icons.category, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("Favourites"),
               leading: Icon(Icons.favorite, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
           Divider(height: 4, color: Colors.red, indent: 16, endIndent: 16,),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("Settings"),
               leading: Icon(Icons.settings, color: Colors.red,),
-            ),
+              onTap: (){},
           ),
 
-          InkWell(
-            onTap: (){},
-            child: ListTile(
+          ListTile(
               title: Text("About"),
               leading: Icon(Icons.help, color: Colors.red,),
-            ),
-          )
+              onTap: (){},
+          ),
         ],
       ),
     );

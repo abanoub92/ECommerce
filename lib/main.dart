@@ -1,7 +1,9 @@
-import 'package:ecommerce/MainWidgets/Carousel_Images.dart';
-
-import './MainWidgets/navigation_drawer.dart';
+import 'package:ecommerce/MainWidgets/products.dart';
 import 'package:flutter/material.dart';
+
+import './MainWidgets/carousel_images.dart';
+import './MainWidgets/navigation_drawer.dart';
+import './MainWidgets/horizontal_list_view.dart';
 
 void main() => runApp(EcommerceApp());
 
@@ -34,7 +36,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
 
       drawer: NavigationDrawer(),
-      body: CarouselImages(),
+      body: ListView(
+        children: <Widget>[
+          CarouselImages(), //main image slider
+          HorizontalListView(), //categories horizontal list
+          Products(), //list of products items
+        ],
+      ),
     );
   }
 }
