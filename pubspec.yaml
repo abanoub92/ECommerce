@@ -19,8 +19,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_statusbarcolor: ^0.2.3
+  http: ^0.12.1
+  provider: ^4.1.3
+  shared_preferences: ^0.5.7+3  
 
-  carousel_pro: ^1.0.0
+  carousel_slider: ^2.2.1
+  #carousel_pro: ^1.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,31 +43,33 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - images/c1.jpg
-    - images/c2.JPG
-    - images/m1.jpeg
-    - images/m2.jpg
-    - images/w1.jpeg
-    - images/w3.jpeg
-    - images/w4.jpeg
-    - images/category/accessories.png
-    - images/category/dress.png
-    - images/category/formal.png
-    - images/category/informal.png
-    - images/category/jeans.png
-    - images/category/shoe.png
-    - images/category/tshirt.png
-    - images/products/blazer1.jpeg
-    - images/products/blazer2.jpeg
-    - images/products/dress1.jpeg
-    - images/products/dress2.jpeg
-    - images/products/hills1.jpeg
-    - images/products/hills2.jpeg
-    - images/products/pants1.jpg
-    - images/products/pants2.jpeg
-    - images/products/shoe1.jpg
-    - images/products/skt1.jpeg
-    - images/products/skt2.jpeg
+    - assets/images/c1.jpg
+    - assets/images/c2.JPG
+    - assets/images/m1.jpeg
+    - assets/images/m2.jpg
+    - assets/images/w1.jpeg
+    - assets/images/w3.jpeg
+    - assets/images/w4.jpeg
+    - assets/images/category/accessories.png
+    - assets/images/category/dress.png
+    - assets/images/category/formal.png
+    - assets/images/category/informal.png
+    - assets/images/category/jeans.png
+    - assets/images/category/shoe.png
+    - assets/images/category/tshirt.png
+    - assets/images/products/blazer1.jpeg
+    - assets/images/products/blazer2.jpeg
+    - assets/images/products/dress1.jpeg
+    - assets/images/products/dress2.jpeg
+    - assets/images/products/hills1.jpeg
+    - assets/images/products/hills2.jpeg
+    - assets/images/products/pants1.jpg
+    - assets/images/products/pants2.jpeg
+    - assets/images/products/shoe1.jpg
+    - assets/images/products/skt1.jpeg
+    - assets/images/products/skt2.jpeg
+    - assets/images/logo_welcome.png
+    - assets/images/logo_app.png
 
 
   # The following line ensures that the Material Icons font is

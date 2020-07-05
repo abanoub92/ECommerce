@@ -15,7 +15,7 @@ class HorizontalListView extends StatelessWidget {
           ),
         ),
         Container(
-          height: 150,
+          height: 120,
           padding: EdgeInsets.only(
             left: 16,
             right: 16,
@@ -25,43 +25,43 @@ class HorizontalListView extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             children: <Widget>[
               Category(
-                imageLocation: 'images/category/accessories.png',
+                imageLocation: 'assets/images/category/accessories.png',
                 imageCaption: 'Accessories',
                 onClickListener: () {},
               ), //accessories category button
 
               Category(
-                imageLocation: 'images/category/dress.png',
+                imageLocation: 'assets/images/category/dress.png',
                 imageCaption: 'Dress',
                 onClickListener: () {},
               ), //dress category button
 
               Category(
-                imageLocation: 'images/category/formal.png',
+                imageLocation: 'assets/images/category/formal.png',
                 imageCaption: 'Formal',
                 onClickListener: () {},
               ), //formal category button
 
               Category(
-                imageLocation: 'images/category/informal.png',
+                imageLocation: 'assets/images/category/informal.png',
                 imageCaption: 'Informal',
                 onClickListener: () {},
               ), //informal category button
 
               Category(
-                imageLocation: 'images/category/jeans.png',
+                imageLocation: 'assets/images/category/jeans.png',
                 imageCaption: 'Jeans',
                 onClickListener: () {},
               ), //jeans category button
 
               Category(
-                imageLocation: 'images/category/shoe.png',
+                imageLocation: 'assets/images/category/shoe.png',
                 imageCaption: 'Shoes',
                 onClickListener: () {},
               ), //shoes category button
 
               Category(
-                imageLocation: 'images/category/tshirt.png',
+                imageLocation: 'assets/images/category/tshirt.png',
                 imageCaption: 'T-Shirts',
                 onClickListener: () {},
               ), //tshirt category button
